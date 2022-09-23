@@ -83,14 +83,70 @@
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
-
+/*-----
+    soluzione ex-6
+-----*/
+.ex-6-img{
+    transition: 1s;
+}
+.ex-6-img:hover{
+    filter: grayscale(1)
+}
+/*-----*/
+/*-----
+    soluzione ex-7
+-----*/
+.ex-7-img{
+    transition: 3s;
+}
+.ex-7-img:hover{
+    filter: grayscale(1) invert(0.5);
+}
+/*-----*/
+/*-----
+    soluzione ex-8
+-----*/
+.ex-8-img{
+    transition: 1s;
+}
+.ex-8-img:hover{
+filter: grayscale(1) invert(0.5);
+border-radius: 50%;
+}
+/*-----*/
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+/*-----
+    soluzione ex-9
+-----*/
+.ex-9-img{
+    transition: 1s;
+}
+.ex-9-img:hover{
+    filter: grayscale(1) invert(0.5);
+    border-radius: 50%;
+    width: 300px;
+}
+/*-----*/
 .ex-10-icon {
     font-size: 60px;
 }
+/*-----
+    soluzione ex-10
+-----*/
+.ex-10-icon{
+    animation-name: ruota;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ruota{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+/*-----*/
 .ex-11-icon {
     font-size: 60px;
 }
